@@ -9,7 +9,7 @@ public class DataTypeCastingDemo {
 		//as this leads to narrowing conversion. Hence, an explicit casting is required. i.e '(byte) i'
 		byte b = (byte) i;
 		
-		char ch = '!';
+		char ch = 'A';
 		System.out.println(ch);
 		
 		ch = (char) ((int) ch + 1);
