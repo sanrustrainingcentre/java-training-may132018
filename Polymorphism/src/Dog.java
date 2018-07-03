@@ -16,4 +16,8 @@ public class Dog extends Animal {
 		System.out.println("Dog way of walking.");
 	}
 	
+	void dogSpecificBehavior() {
+		System.out.println("Dog specific behavior is called.");
+	}
+	
 }

@@ -25,6 +25,12 @@ public class PolymorphismDemo {
 		{
 			Animal eachAnimalInArrayCell = animals[index];
 			callEatMethod(eachAnimalInArrayCell);
+			
+			if (eachAnimalInArrayCell instanceof LabradorDog)
+			{
+				LabradorDog dog = (LabradorDog) eachAnimalInArrayCell;
+				dog.doLabradorDogSpecificBehavior();
+			}
 		}
 		
 
