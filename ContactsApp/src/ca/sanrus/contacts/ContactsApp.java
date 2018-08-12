@@ -1,5 +1,6 @@
 package ca.sanrus.contacts;
 
+import java.io.File;
 import java.util.Scanner;
 
 import ca.sanrus.contacts.exception.InvalidFormEntryException;
@@ -15,6 +16,8 @@ public class ContactsApp {
 	private static final int MAX_NUMBER_OF_CONTACTS = 100;
 
 	public static void main(String[] args) {
+		
+		File file = new File("files/contacts.csv");
 		
 		Contact[] contacts = new Contact[MAX_NUMBER_OF_CONTACTS];
 		int topIndex = 0;
